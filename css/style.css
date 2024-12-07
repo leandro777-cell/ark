@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Jaro:opsz@6..72&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Revolution&display=swap');
+
+
+@media (max-width: 992px){
+
+    body {
+    
+    background-color: gray;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    }
+    
+    
+    }
+
+
+
+
+@media (min-width: 992px){
+
+body {
+
+background-color: gray;
+background-image: url(../imagenes/fondo.jpg);
+background-repeat: no-repeat;
+background-attachment:fixed ;
+background-size: cover;
+}
+
+
+}
+
+
+header{
+
+
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+
+footer{
+
+background-color: aquamarine;
+opacity: 0.8;
+
+}
+
+
+nav{
+
+    background-color: cyan;
+opacity: 0.8;
+
+}
+
+.a2{display: flex;
+ justify-content: space-around;
+flex-direction: row;
+
+}
+
+a{
+
+font-size: 3vh;
+
+}
+
+.k1 {display: flex;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: "Ga Maamli", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.k2 {display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Ga Maamli", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: chartreuse;
+    opacity: 0.8;
+    }
+
+.k3{
+
+
+    font-family: "Ga Maamli", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+}
+
+
+
+
+h2 {
+    font-family: "Ga Maamli", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+h3 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: chartreuse;
+    opacity: 0.8;
+    }
+.logo {
+
+    height: 15vh;
+    width: 15vw;
+}
+
+
+
+
+.carrusel{display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+ 
+@media (max-width:992px) {
+
+.carrusel1{
+
+height: 30vh;
+width: 50vw;
+
+}
+}
+
+
+@media (min-width:992px) {
+
+    .carrusel1{
+    
+    height: 30vh;
+    width: 30vw;
+margin-top: 3vw;
+    }
+    }
+
+
+@media (max-width:992px) {
+.carrusel2{
+
+height: 30vh;
+width: 50vw;
+
+}
+}
+
+@media (min-width:992px) {
+    .carrusel2{
+    
+    height: 30vh;
+    width: 30vw;
+margin-top: 3vw;
+    }
+    }
+
+.rexroar{display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 7vw;
+
+}
+
+.mapa{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3vw;
+}
+
+
+.maptitle{
+
+background-color: chartreuse;
+padding: 1vw;
+opacity: 0.8;
+}
+
+.maptitle2{display: flex;
+
+    justify-content: center;
+
+    background-color: chartreuse;
+    padding: 1vw;
+    opacity: 0.8;
+
+    }
+
+
+
+
+
+
+
+
+    @media(max-width:992px){
+.map {
+    height: 30vh;
+    width: 70vw ;
+}
+
+}
+
+@media(min-width:992px){
+    .map {
+        height: 50vh;
+        width: 50vw ;
+    }
+    
+    }
+
+
+
+.card-img-top{
+      
+    height: 15vh;
+     
+  }
+
+  .lor {
+
+    background-color: chartreuse;
+    opacity: 0.8;
+
+  }
+
+
+  @media(max-width:992px){
+
+.video{
+
+display: none;
+
+}
+
+
+  }
+
+
+
+  @media(min-width:992px){
+
+.video2{
+
+display: none;
+
+}
+
+
+  }
+
+  
